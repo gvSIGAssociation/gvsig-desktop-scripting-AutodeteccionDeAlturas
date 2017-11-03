@@ -1,0 +1,11 @@
+[Unit]
+type = Script
+name = lidar_shape_detection_with_spatialindex
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+

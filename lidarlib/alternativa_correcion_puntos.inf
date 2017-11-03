@@ -1,0 +1,14 @@
+[Unit]
+type = Script
+name = alternativa_correcion_puntos
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+
+[script]
+enable = true
+

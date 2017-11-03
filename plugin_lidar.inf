@@ -1,0 +1,14 @@
+[Unit]
+type = Script
+name = plugin_lidar
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+
+[script]
+enable = true
+

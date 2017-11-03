@@ -1,0 +1,11 @@
+[Unit]
+type = Script
+name = jts_spatialindex
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+

@@ -1,0 +1,14 @@
+[Unit]
+type = Script
+name = analizar_resultado_interseccion
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+
+[script]
+enable = true
+

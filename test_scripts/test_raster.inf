@@ -1,0 +1,11 @@
+[Unit]
+type = Script
+name = test_raster
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+

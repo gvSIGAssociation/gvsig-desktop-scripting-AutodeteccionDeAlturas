@@ -1,0 +1,21 @@
+#
+#Sun Aug 21 17:54:26 CEST 2016
+owner=
+code=AutodeteccionDeAlturas
+java-version=j1_7
+official=true
+type=Script
+version=1.0.0-4
+state=testing
+operating-system=all
+dependencies=
+sources-url=
+web-url=
+architecture=all
+model-version=1.0.1
+categories=
+description=Esta herramienta permite obtener informaci\u00F3n de construcciones por alturas extraidas de datos LIDAR. Permitiendo comparar los resultados obtenidos con una capa de parcelas de la misma zona y analizar las discrepancias en altura obtenidas entre ambas.
+owner-url=
+buildNumber=4
+gvSIG-version=2.3.0
+name=Tools\: Autodetecci\u00F3n de alturas

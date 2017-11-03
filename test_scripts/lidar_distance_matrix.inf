@@ -1,0 +1,11 @@
+[Unit]
+type = Script
+name = lidar_distance_matrix
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+

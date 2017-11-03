@@ -1,0 +1,14 @@
+[Unit]
+type = Script
+name = lidar_to_shape
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+
+[script]
+enable = true
+

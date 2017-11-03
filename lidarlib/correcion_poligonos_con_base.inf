@@ -1,0 +1,14 @@
+[Unit]
+type = Script
+name = correcion_poligonos_con_base
+description = 
+createdBy = 
+version = 
+
+[Script]
+main = main
+Lang = python
+
+[script]
+enable = true
+
