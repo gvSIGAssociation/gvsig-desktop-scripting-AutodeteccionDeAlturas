@@ -1,21 +1,21 @@
 #
-#Tue Jul 10 08:14:18 CEST 2018
+#Tue Jul 10 08:24:01 CEST 2018
 owner=
 code=AutodeteccionDeAlturas
 java-version=j1_7
 official=true
 type=Script
-version=1.0.0-6
+version=1.0.0-7
 state=testing
 operating-system=all
 dependencies=
-sources-url=https\://github.com/gvSIGAssociation/gvsig-desktop-scripting-AutodeteccionDeAlturas
+sources-url=
 web-url=
 architecture=all
 model-version=1.0.1
 categories=Geoprocess
 description=Esta herramienta permite obtener informaci\u00F3n de construcciones por alturas extraidas de datos LIDAR. Permitiendo comparar los resultados obtenidos con una capa de parcelas de la misma zona y analizar las discrepancias en altura obtenidas entre ambas.
-owner-url=https\://github.com/gvSIGAssociation/gvsig-desktop-scripting-AutodeteccionDeAlturas
-buildNumber=6
+owner-url=
+buildNumber=7
 gvSIG-version=2.4.1
 name=Tools\: Autodetecci\u00F3n de alturas
