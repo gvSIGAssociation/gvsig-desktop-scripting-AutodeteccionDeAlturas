@@ -50,7 +50,7 @@ import sys
 
 class Panel(FormPanel):
     def __init__(self):
-        FormPanel.__init__(self, os.path.join(os.path.dirname(__file__), "plugin_lidar2.xml"))
+        FormPanel.__init__(self, getResource(__file__, "plugin_lidar2.xml"))
         self.btnUpdateCmb_click()
 
     def message(self, msg, mode=LOGGER_INFO, ex=None):
@@ -58,7 +58,7 @@ class Panel(FormPanel):
       self.txtField.setText(msg)
 
     def btnPath_click(self, *args):
-        laspath = commonsdialog.openFileDialog("Abrir fichero", initialPath=os.path.dirname(__file__))[0]
+        laspath = commonsdialog.openFileDialog("Abrir fichero", initialPath=getResource(__file__))[0]
         self.txtPath.setText(laspath)
 
     def btnCalcularAlturas_click(self, *args):

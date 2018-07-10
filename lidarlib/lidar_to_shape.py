@@ -1,7 +1,6 @@
 
 import gvsig
-from gvsig import geom
-
+from gvsig import geom, getResource
 from gvsig.uselib import use_jar
 import os.path
 
@@ -26,7 +25,7 @@ def insertShape(prefixname):
 @timeit
 def lidar_to_shape(inputFile):
     import sys
-    use_jar(os.path.join(os.path.dirname(__file__),"..","jars","WhiteboxAPI.jar"))
+    use_jar(getResource(__file__,"..","jars","WhiteboxAPI.jar"))
     from whitebox.geospatialfiles import LASReader
 
     #print inputFile
@@ -82,6 +81,6 @@ def main(*args):
     #inputFile = r"C:\gvdata-lidar\ejemplo_rustica\lidar_rustica.las"
     #inputFile = r"C:\gvdata-lidar\lidar_rustica_test1\loriguilla.las"
     #inputFile = r"C:\gvdata-lidar\test\LIDAR-LAZ-2014-SP08\280.las"
-    inputFile = os.path.join(os.path.dirname(__file__),"..","datos","loriguilla.las")
+    inputFile = getResource(__file__,"..","datos","loriguilla.las")
     lyrPointsBuildings, lyrPointsGround = lidar_to_shape(inputFile)  
     pass

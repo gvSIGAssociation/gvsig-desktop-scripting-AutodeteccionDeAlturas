@@ -11,4 +11,5 @@ Lang = python
 
 [script]
 enable = true
+isolationGroup = gvsig-base
 
