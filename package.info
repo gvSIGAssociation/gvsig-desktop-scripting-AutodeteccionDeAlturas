@@ -1,5 +1,5 @@
 #
-#Tue Jul 10 08:24:01 CEST 2018
+#Thu Nov 08 13:04:41 CET 2018
 owner=
 code=AutodeteccionDeAlturas
 java-version=j1_7
@@ -17,5 +17,5 @@ categories=Geoprocess
 description=Esta herramienta permite obtener informaci\u00F3n de construcciones por alturas extraidas de datos LIDAR. Permitiendo comparar los resultados obtenidos con una capa de parcelas de la misma zona y analizar las discrepancias en altura obtenidas entre ambas.
 owner-url=
 buildNumber=7
-gvSIG-version=2.4.1
+gvSIG-version=2.5.0
 name=Tools\: Autodetecci\u00F3n de alturas
