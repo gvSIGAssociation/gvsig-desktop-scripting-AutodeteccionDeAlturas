@@ -197,7 +197,7 @@ class DeteccionDeAlturasExtension(ScriptingExtension):
 def selfRegister():
   application = ApplicationLocator.getManager()
 
-  icon_show = File(os.path.join(os.path.dirname(__file__),"deteccion-alturas.png")).toURI().toURL()
+  icon_show = File(getResource(__file__,"deteccion-alturas.png")).toURI().toURL()
   
   iconTheme = ToolsSwingLocator.getIconThemeManager().getCurrent()
   iconTheme.registerDefault("scripting.deteccion-alturas", "action", "tools-deteccion-alturas-show", None, icon_show)

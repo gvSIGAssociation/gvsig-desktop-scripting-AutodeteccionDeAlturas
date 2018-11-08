@@ -8,6 +8,7 @@ version =
 [Script]
 main = main
 Lang = python
+enable = true
 
 [script]
 enable = true
